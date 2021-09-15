@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+.nav-item {
+  @apply mx-5 hover:text-white;
+}
+
+@tailwind utilities;
