@@ -1,8 +1,11 @@
+import { useEffect } from "react";
 import Pricing from "./components/Pricing";
 import Hero from "./components/Hero";
 import Feature from "./components/Feature";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import {
   CloudUploadIcon,
@@ -13,6 +16,7 @@ import {
   ShieldCheckIcon,
 } from "@heroicons/react/outline";
 import Newsletter from "./components/Newsletter";
+import { Stats } from "./components/Stats";
 
 const heroData = [
   { name: "Hosting", href: "#" },
@@ -140,12 +144,17 @@ const footerData = {
 };
 
 function App() {
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
+
   return (
     <div>
       <Hero navigation={heroData} />
       <Pricing pricing={pricingData} />
       <Feature features={featuresData} />
       <Testimonials />
+      <Stats />
       <Newsletter />
       <Footer navigation={footerData} />
     </div>

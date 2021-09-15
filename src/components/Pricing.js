@@ -9,11 +9,14 @@ const Pricing = (props) => {
     <div className="max-w-7xl mx-auto pt-24 px-4 bg-white sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto text-center px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto space-y-2 lg:max-w-none">
-          <h2 className="text-lg leading-6 font-semibold text-gray-500 uppercase tracking-wider">
+          <h2
+            data-aos="fade-up"
+            className="text-lg leading-6 font-semibold text-gray-500 uppercase tracking-wider"
+          >
             Pricing
           </h2>
           <p
-            data-aos="fade-in"
+            data-aos="fade-up"
             className="text-3xl font-extrabold text-gray-700 sm:text-4xl lg:text-5xl"
           >
             The right price for you, whoever you are
@@ -22,7 +25,10 @@ const Pricing = (props) => {
       </div>
 
       {/* Tiers */}
-      <div className="mt-24 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-8">
+      <div
+        data-aos="zoom-in"
+        className="mt-24 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-8"
+      >
         {props.pricing.tiers.map((tier) => (
           <div
             key={tier.title}

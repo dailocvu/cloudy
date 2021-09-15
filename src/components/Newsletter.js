@@ -1,7 +1,7 @@
 const Newsletter = () => {
   return (
     <div>
-      <div className="bg-white">
+      <div data-aos="zoom-in" className="bg-white">
         <div className="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:py-32 lg:px-8 lg:flex lg:items-center">
           <div className="lg:w-0 lg:flex-1">
             <h2 className="text-3xl font-extrabold text-gray-700 sm:text-4xl">

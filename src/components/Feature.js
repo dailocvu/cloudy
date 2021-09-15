@@ -3,13 +3,19 @@ const Feature = (props) => {
     <div>
       <div className="relative pt-24 bg-white py-8 sm:py-24 ">
         <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-          <h2 className="text-base font-semibold tracking-wider text-gray-500 uppercase">
+          <h2
+            data-aos="fade-up"
+            className="text-base font-semibold tracking-wider text-gray-500 uppercase"
+          >
             Deploy faster
           </h2>
-          <p className="mt-2 text-3xl font-extrabold text-gray-700 sm:text-4xl lg:text-5xl">
+          <p
+            data-aos="fade-up"
+            className="mt-2 text-3xl font-extrabold text-gray-700 sm:text-4xl lg:text-5xl"
+          >
             Everything you need to deploy your app
           </p>
-          <div className="mt-12">
+          <div data-aos="zoom-in" className="mt-12">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
               {props.features.map((feature) => (
                 <div key={feature.name} className="pt-6">
