@@ -1,5 +1,5 @@
-# Cloudy - Cloud Hosting
+# Cloudy - Cloud Hosting (Landing Page)
 
-This is a project build with ReactJS, styling with Tailwind CSS and animate on scroll using AOS. [Live Demo](https://kryonics.me/cloudy)
+This is a landing page for a cloud hosting website, build with ReactJS, styling with TailwindCSS and animate on scrolling using AOS. [Live Demo](https://kryonics.me/cloudy)
 
-[screenshot](<img src="./screenshots/cloudy.png" >)
+<img src="./screenshots/cloudy.png" >
