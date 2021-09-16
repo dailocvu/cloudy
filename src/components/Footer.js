@@ -33,6 +33,9 @@ const Footer = (props) => {
           <p className="mt-8 text-center text-base text-gray-400">
             &copy; 2021 Cloudy, Inc. All rights reserved.
           </p>
+          <p className="mt-8 text-center text-base text-gray-600">
+            Made by kryonics 🖤
+          </p>
         </div>
       </footer>
     </div>
