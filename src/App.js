@@ -6,6 +6,8 @@ import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Newsletter from "./components/Newsletter";
+import { Stats } from "./components/Stats";
 
 import {
   CloudUploadIcon,
@@ -15,8 +17,6 @@ import {
   ServerIcon,
   ShieldCheckIcon,
 } from "@heroicons/react/outline";
-import Newsletter from "./components/Newsletter";
-import { Stats } from "./components/Stats";
 
 const heroData = [
   { name: "Hosting", href: "#" },
