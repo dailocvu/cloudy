@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/cloudy/static/css/main.113159a8.chunk.css",
-    "main.js": "/cloudy/static/js/main.6b3fc7c2.chunk.js",
-    "main.js.map": "/cloudy/static/js/main.6b3fc7c2.chunk.js.map",
+    "main.css": "/cloudy/static/css/main.0b09c964.chunk.css",
+    "main.js": "/cloudy/static/js/main.86f39449.chunk.js",
+    "main.js.map": "/cloudy/static/js/main.86f39449.chunk.js.map",
     "runtime-main.js": "/cloudy/static/js/runtime-main.d9b2bec3.js",
     "runtime-main.js.map": "/cloudy/static/js/runtime-main.d9b2bec3.js.map",
     "static/css/2.207e99fc.chunk.css": "/cloudy/static/css/2.207e99fc.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.7542760d.chunk.js.map": "/cloudy/static/js/2.7542760d.chunk.js.map",
     "index.html": "/cloudy/index.html",
     "static/css/2.207e99fc.chunk.css.map": "/cloudy/static/css/2.207e99fc.chunk.css.map",
-    "static/css/main.113159a8.chunk.css.map": "/cloudy/static/css/main.113159a8.chunk.css.map",
+    "static/css/main.0b09c964.chunk.css.map": "/cloudy/static/css/main.0b09c964.chunk.css.map",
     "static/js/2.7542760d.chunk.js.LICENSE.txt": "/cloudy/static/js/2.7542760d.chunk.js.LICENSE.txt",
     "static/media/c-logo.0529a16f.png": "/cloudy/static/media/c-logo.0529a16f.png",
     "static/media/person.7a86640f.jpg": "/cloudy/static/media/person.7a86640f.jpg"
@@ -19,7 +19,7 @@
     "static/js/runtime-main.d9b2bec3.js",
     "static/css/2.207e99fc.chunk.css",
     "static/js/2.7542760d.chunk.js",
-    "static/css/main.113159a8.chunk.css",
-    "static/js/main.6b3fc7c2.chunk.js"
+    "static/css/main.0b09c964.chunk.css",
+    "static/js/main.86f39449.chunk.js"
   ]
 }
