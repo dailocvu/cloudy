@@ -12,12 +12,11 @@ const Feature = (props) => {
           data-aos="fade-up"
           className="mt-2 text-3xl font-extrabold text-gray-700 sm:text-4xl lg:text-5xl"
         >
-          Everything you need
+          Everything{" "}
           <span className="max-w-min text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
-            {" "}
-            to deploy{" "}
-          </span>
-          your app
+            you need
+          </span>{" "}
+          to deploy your app
         </p>
         <div data-aos="zoom-in" className="mt-12">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -26,7 +25,7 @@ const Feature = (props) => {
                 <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
                   <div className="-mt-6">
                     <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-gradient-to-br from-pink-400 to-pink-700  rounded-md shadow-lg">
+                      <span className="inline-flex items-center justify-center p-3 bg-gradient-to-br from-pink-400 to-red-500  rounded-md shadow-lg">
                         <feature.icon
                           className="h-6 w-6 text-white"
                           aria-hidden="true"
