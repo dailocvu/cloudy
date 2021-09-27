@@ -80,25 +80,10 @@ const Hero = (props) => {
           </Transition>
         </Popover>
         {/*Hero */}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <main class="my-48 mx-auto max-w-7xl px-4 sm:mt-24 md:mt-48">
-          <div class="text-center">
-            <h1 class="tracking-tight font-extrabold text-gray-700">
-              <p class="text-xl sm:text-3xl md:text-4xl">
-                Accelerate your transformation with
-=======
-=======
->>>>>>> parent of b11eb44 (Update Hero UI)
-=======
->>>>>>> parent of b11eb44 (Update Hero UI)
         <main className="lg:relative">
           <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
             <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-200 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-<<<<<<< HEAD
-<<<<<<< HEAD
                 <span className="block xl:inline">
                   Accelerate your transformation
                 </span>{" "}
@@ -108,19 +93,6 @@ const Hero = (props) => {
               </h1>
               <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
                 Deploy your websites in less than 60 seconds.
->>>>>>> parent of 4aab0fe (Update UI)
-=======
-=======
->>>>>>> parent of b11eb44 (Update Hero UI)
-                <span className="inline">Accelerate your transformation</span>{" "}
-                <span className="inline text-pink-600">with Cloudy</span>
-              </h1>
-              <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-                Deploy your websites in less than 60 seconds.
-<<<<<<< HEAD
->>>>>>> parent of b11eb44 (Update Hero UI)
-=======
->>>>>>> parent of b11eb44 (Update Hero UI)
               </p>
               <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
