@@ -13,11 +13,10 @@ const Feature = (props) => {
           data-aos="fade-up"
           className="mt-2 text-3xl font-extrabold text-gray-700 sm:text-4xl lg:text-5xl"
         >
-          Everything you need
-          <span className="max-w-min text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
-            {" "}
+          Everything you need{" "}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500   ">
             to deploy{" "}
-          </span>
+          </span>{" "}
           your app
         </p>
         <div data-aos="zoom-in" className="mt-12">
