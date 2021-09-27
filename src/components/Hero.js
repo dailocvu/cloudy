@@ -79,11 +79,27 @@ const Hero = (props) => {
           </Transition>
         </Popover>
         {/*Hero */}
+<<<<<<< HEAD
         <main class="my-48 mx-auto max-w-7xl px-4 sm:mt-24 md:mt-48">
           <div class="text-center">
             <h1 class="tracking-tight font-extrabold text-gray-800">
               <p class="text-2xl sm:text-3xl md:text-4xl">
                 Accelerate your transformation with
+=======
+        <main className="lg:relative">
+          <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
+            <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
+              <h1 className="text-4xl tracking-tight font-extrabold text-gray-200 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
+                <span className="block xl:inline">
+                  Accelerate your transformation
+                </span>{" "}
+                <span className="block text-pink-600 xl:inline">
+                  with Cloudy
+                </span>
+              </h1>
+              <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
+                Deploy your websites in less than 60 seconds.
+>>>>>>> parent of 4aab0fe (Update UI)
               </p>
               <p class="py-3 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-4xl sm:text-6xl md:text-7xl">
                 Cloudy Platform

@@ -1,10 +1,7 @@
 import Person from "../images/person.jpg";
 const Testimonials = () => {
   return (
-    <section
-      data-aos="fade-right"
-      className="bg-white overflow-hidden sm:mb-24"
-    >
+    <section data-aos="fade-right" className="bg-white overflow-hidden">
       <div className="relative max-w-7xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
         <svg
           className="absolute top-full left-0 transform translate-x-80 -translate-y-24 lg:hidden"
