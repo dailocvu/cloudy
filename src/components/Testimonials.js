@@ -94,19 +94,11 @@ const Testimonials = () => {
               />
             </svg>
             <blockquote className="relative">
-              <div className="text-2xl leading-9 font-medium text-gray-400">
+              <div className="text-2xl leading-9 font-medium text-gray-700">
                 <p>
-                  Lorem ipsum{" "}
-                  <span className="text-gray-800">
-                    dolor sit amet consectetu{" "}
-                  </span>
-                  adipisicing elit. Nemo expedita{" "}
-                  <span className="text-gray-800">voluptas culpa </span>
-                  sapiente alias molestiae.{" "}
-                  <span className="text-gray-800">
-                    Numquam corrupti in laborum
-                  </span>{" "}
-                  sed rerum et corporis.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                  expedita voluptas culpa sapiente alias molestiae. Numquam
+                  corrupti in laborum sed rerum et corporis.
                 </p>
               </div>
               <footer className="mt-8">
@@ -122,7 +114,7 @@ const Testimonials = () => {
                     <div className="text-base font-medium text-gray-800">
                       Adam
                     </div>
-                    <div className="text-base font-medium  bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+                    <div className="text-base font-medium text-red-500">
                       CEO, Cloudy
                     </div>
                   </div>

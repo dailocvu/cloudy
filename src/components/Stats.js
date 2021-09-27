@@ -7,7 +7,8 @@ export const Stats = () => {
     >
       <div className="max-w-4xl mx-auto text-center ">
         <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
-          Trusted by developers from over 80 planets
+          <span className="opacity-70">Trusted by</span> developers{" "}
+          <span className="opacity-70"> from over </span> 80 planets
         </h2>
         <p className="mt-3 text-xl text-gray-300 sm:mt-4">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus

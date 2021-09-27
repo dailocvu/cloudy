@@ -5,7 +5,7 @@ const Feature = (props) => {
       <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
         <h2
           data-aos="fade-up"
-          className="text-base font-semibold tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 uppercase "
+          className="text-base font-semibold tracking-wider text-gray-500 uppercase"
         >
           Deploy faster
         </h2>
@@ -13,16 +13,20 @@ const Feature = (props) => {
           data-aos="fade-up"
           className="mt-2 text-3xl font-extrabold text-gray-700 sm:text-4xl lg:text-5xl"
         >
-          Everything you need to deploy your app
+          Everything{" "}
+          <span className="max-w-min text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+            you need
+          </span>{" "}
+          to deploy your app
         </p>
         <div data-aos="zoom-in" className="mt-12">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {props.features.map((feature) => (
               <div key={feature.name} className="pt-6">
-                <div className="flow-root bg-gray-100 rounded-lg px-6 pb-8">
+                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
                   <div className="-mt-6">
                     <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-gradient-to-br from-purple-400 to-pink-500   rounded-md shadow-lg">
+                      <span className="inline-flex items-center justify-center p-3 bg-gradient-to-br from-pink-400 to-red-500  rounded-md shadow-lg">
                         <feature.icon
                           className="h-6 w-6 text-white"
                           aria-hidden="true"

@@ -16,10 +16,10 @@ const Hero = (props) => {
               <div className="flex items-center flex-1 ">
                 <div className="flex items-center justify-between w-full md:w-auto">
                   <button href="#">
-                    <img className="h-10 w-auto " src={Logo} alt="logo" />
+                    <img className="h-8 w-auto sm:h-10" src={Logo} alt="logo" />
                   </button>
                   <div className="-mr-2 flex items-center md:hidden">
-                    <Popover.Button className=" bg-gradient-to-br from-purple-400 via-pink-500 to-red-500 rounded-md p-2 inline-flex items-center justify-center text-white hover:opacity-90 focus:outline-none ">
+                    <Popover.Button className=" bg-gradient-to-br from-pink-400 to-red-500 rounded-md p-2 inline-flex items-center justify-center text-gray-200 hover:text-gray-300 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pink-400">
                       <MenuIcon className="h-6 w-6" aria-hidden="true" />
                     </Popover.Button>
                   </div>
@@ -55,10 +55,10 @@ const Hero = (props) => {
               <div className="rounded-lg shadow-md  bg-white ring-1 ring-pink-400 ring-opacity-5 overflow-hidden">
                 <div className="px-5 pt-4 flex items-center justify-between">
                   <div>
-                    <img className="h-10 w-auto" src={Logo} alt="logo" />
+                    <img className="h-8 w-auto" src={Logo} alt="logo" />
                   </div>
                   <div className="-mr-2">
-                    <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-pink-500 hover:text-gray-200 hover:bg-pink-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pink-500">
+                    <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-red-500 hover:text-gray-200 hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pink-600">
                       <XIcon className="h-6 w-6" aria-hidden="true" />
                     </Popover.Button>
                   </div>
@@ -82,8 +82,8 @@ const Hero = (props) => {
 <<<<<<< HEAD
         <main class="my-48 mx-auto max-w-7xl px-4 sm:mt-24 md:mt-48">
           <div class="text-center">
-            <h1 class="tracking-tight font-extrabold text-gray-800">
-              <p class="text-2xl sm:text-3xl md:text-4xl">
+            <h1 class="tracking-tight font-extrabold text-gray-700">
+              <p class="text-xl sm:text-3xl md:text-4xl">
                 Accelerate your transformation with
 =======
         <main className="lg:relative">
@@ -110,7 +110,7 @@ const Hero = (props) => {
             </p>
             <div class="mt-5 max-w-md mx-auto flex justify-center items-center sm:flex sm:justify-center md:mt-8 z-20">
               <a
-                class="z-40 inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide  py-3 border border-transparent text-base rounded-md text-white bg-gray-800 hover:bg-gray-700"
+                class="z-40 inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide  py-3 border border-transparent text-base rounded-md text-white bg-gray-700 hover:bg-gray-600"
                 href="#"
               >
                 Get started
