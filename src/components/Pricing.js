@@ -47,7 +47,7 @@ const Pricing = (props) => {
                 {tier.title}
               </h3>
               {tier.mostPopular ? (
-                <p className="absolute top-0 left-1/3 py-1.5 px-4 bg-gradient-to-br from-pink-400 to-red-500  rounded-full text-xs font-semibold uppercase tracking-wide text-white transform -translate-y-1/2">
+                <p className="absolute top-0 left-1/3 py-1.5 px-4 bg-gradient-to-br from-pink-400 to-pink-700  rounded-full text-xs font-semibold uppercase tracking-wide text-white transform -translate-y-1/2">
                   Most popular
                 </p>
               ) : null}
@@ -66,7 +66,7 @@ const Pricing = (props) => {
                 {tier.features.map((feature) => (
                   <li key={feature} className="flex">
                     <CheckIcon
-                      className="flex-shrink-0 w-6 h-6 text-red-600"
+                      className="flex-shrink-0 w-6 h-6 text-pink-600"
                       aria-hidden="true"
                     />
                     <span className="ml-3 text-gray-500">{feature}</span>
@@ -80,8 +80,8 @@ const Pricing = (props) => {
               href="#"
               className={classNames(
                 tier.mostPopular
-                  ? "bg-gradient-to-br from-pink-400 to-red-500 text-white hover:opacity-90"
-                  : "bg-red-50 text-red-500 hover:bg-red-100",
+                  ? "bg-gradient-to-br from-pink-400 to-pink-700 text-white hover:opacity-90"
+                  : "bg-pink-50 text-pink-600 hover:bg-pink-100",
                 "mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium"
               )}
             >

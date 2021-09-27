@@ -111,10 +111,10 @@ const Testimonials = () => {
                     />
                   </div>
                   <div className="ml-4 lg:ml-0">
-                    <div className="text-base font-medium text-gray-800">
+                    <div className="text-base font-medium text-gray-900">
                       Adam
                     </div>
-                    <div className="text-base font-medium text-red-500">
+                    <div className="text-base font-medium text-pink-600">
                       CEO, Cloudy
                     </div>
                   </div>

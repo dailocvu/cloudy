@@ -19,7 +19,7 @@ const Hero = (props) => {
                     <img className="h-8 w-auto sm:h-10" src={Logo} alt="logo" />
                   </button>
                   <div className="-mr-2 flex items-center md:hidden">
-                    <Popover.Button className=" bg-gradient-to-br from-pink-400 to-red-500 rounded-md p-2 inline-flex items-center justify-center text-gray-200 hover:text-gray-300 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pink-400">
+                    <Popover.Button className=" bg-pink-600 rounded-md p-2 inline-flex items-center justify-center text-gray-200 hover:text-gray-300 hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pink-600">
                       <MenuIcon className="h-6 w-6" aria-hidden="true" />
                     </Popover.Button>
                   </div>
@@ -52,13 +52,13 @@ const Hero = (props) => {
               focus
               className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
             >
-              <div className="rounded-lg shadow-md  bg-white ring-1 ring-pink-400 ring-opacity-5 overflow-hidden">
+              <div className="rounded-lg shadow-md  bg-white ring-1 ring-pink-600 ring-opacity-5 overflow-hidden">
                 <div className="px-5 pt-4 flex items-center justify-between">
                   <div>
                     <img className="h-8 w-auto" src={Logo} alt="logo" />
                   </div>
                   <div className="-mr-2">
-                    <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-red-500 hover:text-gray-200 hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pink-600">
+                    <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-pink-600 hover:text-gray-200 hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pink-600">
                       <XIcon className="h-6 w-6" aria-hidden="true" />
                     </Popover.Button>
                   </div>
