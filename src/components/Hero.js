@@ -95,14 +95,14 @@ const Hero = (props) => {
             <div class="mt-5 max-w-md mx-auto flex justify-center items-center sm:flex sm:justify-center md:mt-8 z-20">
               <a
                 class="z-40 inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide  py-3 border border-transparent text-base rounded-md text-white bg-gray-700 hover:bg-gray-600"
-                href="/#pricing"
+                href="#"
               >
                 Get started
               </a>
               <a
                 aria-label=""
                 class="z-40 inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-                href="/#learnmore"
+                href="#"
               >
                 Learn more
               </a>
