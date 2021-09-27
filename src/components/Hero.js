@@ -2,11 +2,10 @@ import Logo from "../images/c-logo.png";
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import Banner from "../images/banner.jpg";
 
 const Hero = (props) => {
   return (
-    <div className="relative bg-primary overflow-hidden">
+    <div className="relative bg-white overflow-hidden">
       <div className="relative pt-6 ">
         <Popover>
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -31,7 +30,7 @@ const Hero = (props) => {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="font-medium text-base text-gray-300 hover:text-gray-100 "
+                    className="font-medium text-base text-gray-700 hover:text-gray-800 "
                   >
                     {item.name}
                   </a>
@@ -80,34 +79,37 @@ const Hero = (props) => {
           </Transition>
         </Popover>
         {/*Hero */}
-        <main className="lg:relative">
-          <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
-            <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
-              <h1 className="text-4xl tracking-tight font-extrabold text-gray-200 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-                <span className="inline">Accelerate your transformation</span>{" "}
-                <span className="inline text-pink-600">with Cloudy</span>
-              </h1>
-              <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-                Deploy your websites in less than 60 seconds.
+        <main class="my-48 mx-auto max-w-7xl px-4 sm:mt-24 md:mt-48">
+          <div class="text-center">
+            <h1 class="tracking-tight font-extrabold text-gray-700">
+              <p class="text-xl sm:text-3xl md:text-4xl">
+                Accelerate your transformation with
               </p>
-              <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
-                <div className="rounded-md shadow">
-                  <button
-                    href="#"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-600 hover:bg-pink-700 md:py-3 md:text-lg md:px-10"
-                  >
-                    Get started
-                  </button>
-                </div>
-              </div>
+              <p class="py-3 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-4xl sm:text-6xl md:text-7xl">
+                Cloudy Platform
+              </p>
+            </h1>
+            <p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+              Deploy your websites in less than 60 seconds.
+            </p>
+            <div class="mt-5 max-w-md mx-auto flex justify-center items-center sm:flex sm:justify-center md:mt-8 z-20">
+              <a
+                class="z-40 inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide  py-3 border border-transparent text-base rounded-md text-white bg-gray-700 hover:bg-gray-600"
+                href="/#pricing"
+              >
+                Get started
+              </a>
+              <a
+                aria-label=""
+                class="z-40 inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                href="/#learnmore"
+              >
+                Learn more
+              </a>
             </div>
-          </div>
-          <div className="relative w-full h-96 sm:h-98 md:h-99 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
-            <img
-              className="absolute inset-0 w-full h-full object-cover"
-              src={Banner}
-              alt=""
-            />
+            <div class="absolute top-24 md:top-36 md:left-50 w-72 h-72 md:w-96 md:h-96 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-pulse"></div>
+            <div class="absolute right-0 top-48 md:top-36 md:right-0 w-72 h-72 md:w-96 md:h-96 bg-red-200 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-pulse"></div>
+            <div class="absolute bottom-36 left-0 md:bottom-12 md:left-48 w-72 h-72 md:w-96 md:h-96 bg-pink-200 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-pulse"></div>
           </div>
         </main>
       </div>

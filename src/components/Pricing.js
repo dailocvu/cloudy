@@ -6,7 +6,10 @@ function classNames(...classes) {
 
 const Pricing = (props) => {
   return (
-    <div className="max-w-7xl mx-auto pt-24 px-4 bg-white sm:px-6 lg:px-8">
+    <div
+      id="pricing"
+      className="max-w-7xl mx-auto sm:pt-24 px-4 bg-white sm:px-6 lg:px-8"
+    >
       <div className="max-w-7xl mx-auto text-center px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto space-y-2 lg:max-w-none">
           <h2
@@ -19,7 +22,12 @@ const Pricing = (props) => {
             data-aos="fade-up"
             className="text-3xl font-extrabold text-gray-700 sm:text-4xl lg:text-5xl"
           >
-            The right price for you, whoever you are
+            The
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+              {" "}
+              right price{" "}
+            </span>
+            for you, whoever you are
           </p>
         </div>
       </div>
@@ -39,7 +47,7 @@ const Pricing = (props) => {
                 {tier.title}
               </h3>
               {tier.mostPopular ? (
-                <p className="absolute top-0 left-1/3 py-1.5 px-4 bg-pink-600 rounded-full text-xs font-semibold uppercase tracking-wide text-white transform -translate-y-1/2">
+                <p className="absolute top-0 left-1/3 py-1.5 px-4 bg-gradient-to-br from-pink-400 to-pink-700  rounded-full text-xs font-semibold uppercase tracking-wide text-white transform -translate-y-1/2">
                   Most popular
                 </p>
               ) : null}
@@ -72,7 +80,7 @@ const Pricing = (props) => {
               href="#"
               className={classNames(
                 tier.mostPopular
-                  ? "bg-pink-600 text-white hover:bg-pink-700"
+                  ? "bg-gradient-to-br from-pink-400 to-pink-700 text-white hover:opacity-90"
                   : "bg-pink-50 text-pink-600 hover:bg-pink-100",
                 "mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium"
               )}
