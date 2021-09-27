@@ -2,6 +2,7 @@ export const Stats = () => {
   return (
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div
       data-aos="fade-zoom-in"
       className="mx-4 sm:mx-6 lg:mx-auto lg:max-w-7xl py-12 px-4 sm:py-16 sm:px-6 lg:px-8 lg:py-20 bg-gradient-to-br from-blue-400 to-blue-700 rounded-3xl"
@@ -70,6 +71,8 @@ export const Stats = () => {
           </dt>
           <dd className="order-1 text-5xl font-extrabold text-white">24/7</dd>
 =======
+=======
+>>>>>>> parent of b11eb44 (Update Hero UI)
     <div data-aos="fade-zoom-in" className="bg-pink-600 ">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8 lg:py-20">
         <div className="max-w-4xl mx-auto text-center">
@@ -80,6 +83,9 @@ export const Stats = () => {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Repellendus repellat laudantium.
           </p>
+<<<<<<< HEAD
+>>>>>>> parent of b11eb44 (Update Hero UI)
+=======
 >>>>>>> parent of b11eb44 (Update Hero UI)
         </div>
         <dl className="mt-10 text-center sm:max-w-3xl sm:mx-auto sm:grid sm:grid-cols-3 sm:gap-8">
