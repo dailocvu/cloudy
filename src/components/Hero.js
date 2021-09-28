@@ -20,7 +20,7 @@ const Hero = (props) => {
                     <img className="h-8 w-auto sm:h-10" src={Logo} alt="logo" />
                   </button>
                   <div className="-mr-2 flex items-center md:hidden">
-                    <Popover.Button className=" bg-pink-600 rounded-md p-2 inline-flex items-center justify-center text-gray-200 hover:text-gray-300 hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pink-600">
+                    <Popover.Button className="bg-gradient-to-br from-pink-600 to-pink-800  rounded-md p-2 inline-flex items-center justify-center text-white hover:text-gray-300 hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pink-600">
                       <MenuIcon className="h-6 w-6" aria-hidden="true" />
                     </Popover.Button>
                   </div>
@@ -59,7 +59,7 @@ const Hero = (props) => {
                     <img className="h-8 w-auto" src={Logo} alt="logo" />
                   </div>
                   <div className="-mr-2">
-                    <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-pink-600 hover:text-gray-200 hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pink-600">
+                    <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-pink-600 hover:text-white hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pink-600">
                       <XIcon className="h-6 w-6" aria-hidden="true" />
                     </Popover.Button>
                   </div>
@@ -83,7 +83,7 @@ const Hero = (props) => {
         <main className="lg:relative">
           <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
             <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
-              <h1 className="text-4xl tracking-tight font-extrabold text-gray-200 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
+              <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
                 <span className="block xl:inline">
                   Accelerate your transformation
                 </span>{" "}
@@ -98,7 +98,7 @@ const Hero = (props) => {
                 <div className="rounded-md shadow">
                   <button
                     href="#"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-600 hover:bg-pink-700 md:py-3 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-br from-pink-600 to-pink-800 hover:opacity-90 md:py-3 md:text-lg md:px-10"
                   >
                     Get started
                   </button>

@@ -1,7 +1,7 @@
 import Person from "../images/person.jpg";
 const Testimonials = () => {
   return (
-    <section data-aos="fade-right" className="bg-white overflow-hidden">
+    <section data-aos="fade-right" className="bg-white overflow-hidden ">
       <div className="relative max-w-7xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
         <svg
           className="absolute top-full left-0 transform translate-x-80 -translate-y-24 lg:hidden"
@@ -94,11 +94,15 @@ const Testimonials = () => {
               />
             </svg>
             <blockquote className="relative">
-              <div className="text-2xl leading-9 font-medium text-gray-700">
+              <div className="text-2xl leading-9 font-medium text-gray-400">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                  expedita voluptas culpa sapiente alias molestiae. Numquam
-                  corrupti in laborum sed rerum et corporis.
+                  Lorem ipsum
+                  <span className="text-pink-600"> dolor sit amet </span>
+                  consectetur adipisicing elit.
+                  <span className="text-pink-600"> Nemo expedita </span>voluptas
+                  culpa sapiente alias molestiae.
+                  <span className="text-pink-600"> Numquam corrupti </span>in
+                  laborum sed rerum et corporis.
                 </p>
               </div>
               <footer className="mt-8">

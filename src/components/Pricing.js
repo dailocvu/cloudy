@@ -11,7 +11,7 @@ const Pricing = (props) => {
         <div className="max-w-3xl mx-auto space-y-2 lg:max-w-none">
           <h2
             data-aos="fade-up"
-            className="text-lg leading-6 font-semibold text-gray-500 uppercase tracking-wider"
+            className="text-lg leading-6 font-semibold uppercase tracking-wider text-pink-600 "
           >
             Pricing
           </h2>
@@ -39,7 +39,7 @@ const Pricing = (props) => {
                 {tier.title}
               </h3>
               {tier.mostPopular ? (
-                <p className="absolute top-0 left-1/3 py-1.5 px-4 bg-pink-600 rounded-full text-xs font-semibold uppercase tracking-wide text-white transform -translate-y-1/2">
+                <p className="absolute top-0 left-1/3 py-1.5 px-4 bg-gradient-to-br from-pink-600 to-pink-800 rounded-full text-xs font-semibold uppercase tracking-wide text-white transform -translate-y-1/2">
                   Most popular
                 </p>
               ) : null}
@@ -72,7 +72,7 @@ const Pricing = (props) => {
               href="#"
               className={classNames(
                 tier.mostPopular
-                  ? "bg-pink-600 text-white hover:bg-pink-700"
+                  ? "bg-gradient-to-br from-pink-600 to-pink-800 text-white hover:opacity-90"
                   : "bg-pink-50 text-pink-600 hover:bg-pink-100",
                 "mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium"
               )}
