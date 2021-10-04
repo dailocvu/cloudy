@@ -3,6 +3,7 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Banner from "../images/banner.jpg";
+import { Link } from "react-scroll";
 
 const Hero = (props) => {
   return (
@@ -96,12 +97,15 @@ const Hero = (props) => {
               </p>
               <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
-                  <button
+                  <Link
+                    to="pricing"
+                    spy={true}
+                    smooth={true}
                     href="#"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-br from-pink-600 to-pink-800 hover:opacity-90 md:py-3 md:text-lg md:px-10"
                   >
                     Get started
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
